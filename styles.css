@@ -1,0 +1,50 @@
+.container{
+    background-color:aliceblue;
+    height: 75px;
+    width: 800px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+.header{
+    height: 40px;
+    width: 800px;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding:8px;
+    justify-content: space-between;
+    
+}
+.logo{
+    color:rebeccapurple;
+    font-size:32px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: Belsey,serif;
+}
+.items{
+    color:rebeccapurple;
+    gap:16px;
+    display: flex;
+    gap: 16px;
+}
+.notification{
+    color: white;
+    background-color:rebeccapurple;
+    padding: 8px 24px;
+    border-radius: 8px;
+}
+.last{
+    background-color:rebeccapurple;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    box-shadow: inset 2px 2px 4px rgba(0,0,0,.5)
+}
+.left,.right{
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
